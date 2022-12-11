@@ -3,11 +3,11 @@
   <title>酷小呵</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://kuhehe1.netlify.app/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://kuhehe1.netlify.app/"/>
   <updated>2022-12-11T07:48:04.657Z</updated>
-  <id>http://example.com/</id>
+  <id>https://kuhehe1.netlify.app/</id>
   
   <author>
     <name>酷小呵</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/12/11/hello-world/"/>
-    <id>http://example.com/2022/12/11/hello-world/</id>
+    <link href="https://kuhehe1.netlify.app/2022/12/11/hello-world/"/>
+    <id>https://kuhehe1.netlify.app/2022/12/11/hello-world/</id>
     <published>2022-12-11T07:48:04.656Z</published>
     <updated>2022-12-11T07:48:04.657Z</updated>
     
