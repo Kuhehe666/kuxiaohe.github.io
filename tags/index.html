@@ -45,6 +45,22 @@
   
   
 
+<script>
+  (function () {
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+  })();
+
+</script>
+
+
 
   
     <script src="/lib/pace.min.js"></script>
@@ -60,7 +76,7 @@
       
 
 
-<div class="overlay" style="background: #4d4d4d;"></div>
+<div class="overlay" style="background: #4d4d4d;background: url('/img/biubiubiu.gif') no-repeat ;"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -77,6 +93,8 @@
 				<li><a href="/" target="_blank">主页</a></li>
 			
 				<li><a href="https://flowus.cn/kuhehe666/share/0a35053f-70d7-4ae1-be2c-217ea1321071" target="_blank">资源分享基地</a></li>
+			
+				<li><a href="/categories" target="_blank">分类</a></li>
 			
 				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">随笔</a></li>
 			
@@ -101,23 +119,28 @@
 			<div class="social">
 				
 					
-						<a class="github" href="#" 
-												title="GitHub" target="_blank"><i class="icon-github"></i></a>
-					
-				
-					
-						<a class="github" href="#" 
-												title="GitHub" target="_blank"><i class="icon-github"></i></a>
-					
-				
-					
-						<a class="gitee" href="#" 
-												title="码云" target="_blank"><i class="icon-gitee"></i></a>
-					
-				
-					
 						<a class="jianshu" href="#" 
 												title="简书" target="_blank"><i class="icon-jianshu"></i></a>
+					
+				
+					
+						<a class="blog" href="https://kuhehe1.netlify.app/" 
+												title="博客" target="_blank"><i class="icon-blog"></i></a>
+					
+				
+					
+						<a class="QQ频道" href="https://pd.qq.com/s/3xiuqjmsa" 
+												title="subNav.title.QQ频道" target="_blank"><i class="icon-QQ频道"></i></a>
+					
+				
+					
+						<a class="weibo" href="https://weibo.com/u/7690309587" 
+												title="微博" target="_blank"><i class="icon-weibo"></i></a>
+					
+				
+					
+						<a class="bilibili" href="https://b23.tv/6kRNqDH" 
+												title="哔哩哔哩" target="_blank"><i class="icon-bilibili"></i></a>
 					
 				
 			</div>
@@ -160,29 +183,36 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
 				<div class="social">
 					
 						
-						<a class="github" target="_blank" 
-							href="#" title="GitHub"><i class="icon-github"></i></a>
-						
-					
-						
-						<a class="github" target="_blank" 
-							href="#" title="GitHub"><i class="icon-github"></i></a>
-						
-					
-						
-						<a class="gitee" target="_blank" 
-							href="#" title="码云"><i class="icon-gitee"></i></a>
-						
-					
-						
 						<a class="jianshu" target="_blank" 
 							href="#" title="简书"><i class="icon-jianshu"></i></a>
+						
+					
+						
+						<a class="blog" target="_blank" 
+							href="https://kuhehe1.netlify.app/" title="博客"><i class="icon-blog"></i></a>
+						
+					
+						
+						<a class="QQ频道" target="_blank" 
+							href="https://pd.qq.com/s/3xiuqjmsa" title="subNav.title.QQ频道"><i class="icon-QQ频道"></i></a>
+						
+					
+						
+						<a class="weibo" target="_blank" 
+							href="https://weibo.com/u/7690309587" title="微博"><i class="icon-weibo"></i></a>
+						
+					
+						
+						<a class="bilibili" target="_blank" 
+							href="https://b23.tv/6kRNqDH" title="哔哩哔哩"><i class="icon-bilibili"></i></a>
 						
 					
 				</div>
@@ -192,11 +222,13 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a target="_blank" rel="noopener" href="https://flowus.cn/kuhehe666/share/0a35053f-70d7-4ae1-be2c-217ea1321071">资源分享基地</a></li>
+					<li style="width: 25%"><a target="_blank" rel="noopener" href="https://flowus.cn/kuhehe666/share/0a35053f-70d7-4ae1-be2c-217ea1321071">资源分享基地</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 25%"><a href="/categories">分类</a></li>
+		        
+					<li style="width: 25%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
 		        
 				</ul>
 			</nav>
@@ -266,9 +298,20 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    
-    
+<div class="tag-cloud">
+	<div class="tag-cloud-title">
+	counter.tag_cloud
+	</div>
+ 
+	<div class="tag-cloud-tags">
+	<a href="/tags/%E6%97%A5%E5%B8%B8/" style="font-size: 12px; color: #ccc">日常</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 12px; color: #ccc">随笔</a>
+	</div>
+</div>
+ 
 
+
+
+    
     
     <div class="page-reward">
       <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
@@ -400,6 +443,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
@@ -543,6 +599,10 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">日常</a>
               </li>
             
@@ -673,7 +733,7 @@
     	<section class="tools-section tools-section-me" q-show="aboutme">
         
           
-  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:111111111<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、分享爱好者、Linux<br><br>联系QQ:111111111<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家！</div>
   	  	
     	</section>
     
@@ -750,10 +810,27 @@
 
   
   
+<script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
+<script>
+  POWERMODE.colorful = true; // make power mode colorful
+  POWERMODE.shake = false; // turn off shake
+  document.body.addEventListener('input', POWERMODE);
+</script>
+
   
   <!-- <script async type="text/javascript" size="90" alpha="0.2" zIndex="0" src="/plugins/ribbon.js/ribbon.min.js"></script> -->
   
   
+  
+  <script type="text/javascript" src="/lib/snow.js"></script>
+  <script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>
+  <script>
+    snow.down();
+    $(window).resize(function() {
+      $("canvas").css("z-index","500").remove();
+      snow.down();
+    });
+  </script>
   
 </body>
 
