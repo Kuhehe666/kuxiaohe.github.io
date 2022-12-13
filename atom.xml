@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>酷小呵</title>
   
-  
+  <subtitle>分享有用的东西，可以在交流区投稿需要的东西哈</subtitle>
   <link href="https://kuhehe1.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://kuhehe1.netlify.app/"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="https://kuhehe1.netlify.app/2022/12/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://kuhehe1.netlify.app/2022/12/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://kuhehe1.netlify.app/2022/12/12/1/"/>
+    <id>https://kuhehe1.netlify.app/2022/12/12/1/</id>
     <published>2022-12-12T03:52:47.000Z</published>
     <updated>2022-12-12T04:08:36.287Z</updated>
     
