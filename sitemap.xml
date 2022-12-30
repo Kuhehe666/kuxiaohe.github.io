@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://kuhehe1.netlify.app/2022/12/12/1/</loc>
+    
+    <lastmod>2022-12-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kuhehe1.netlify.app/2022/12/11/hello-world/</loc>
     
     <lastmod>2022-12-12</lastmod>
@@ -37,15 +46,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://kuhehe1.netlify.app/2022/12/12/1/</loc>
-    
-    <lastmod>2022-12-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://kuhehe1.netlify.app/</loc>
@@ -56,14 +56,14 @@
 
   
   <url>
-    <loc>https://kuhehe1.netlify.app/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://kuhehe1.netlify.app/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kuhehe1.netlify.app/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <loc>https://kuhehe1.netlify.app/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2022-12-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -77,5 +77,19 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://kuhehe1.netlify.app/categories/%E5%93%88%E5%93%88/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kuhehe1.netlify.app/categories/%E5%A5%B3%E7%95%99%E5%AD%A6%E7%94%9F%E7%A7%98%E9%97%BB%E5%BD%95/</loc>
+    <lastmod>2022-12-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
